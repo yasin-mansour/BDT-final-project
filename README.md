@@ -6,7 +6,8 @@ this application is to pull all the tags from twitter using a spark stream appli
 
 2. Create hive table command:
 
-```CREATE external table hashtags (tag String, count int)
+```
+CREATE external table hashtags (tag String, count int)
 PARTITIONED BY(createdat String)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ","
 LOCATION

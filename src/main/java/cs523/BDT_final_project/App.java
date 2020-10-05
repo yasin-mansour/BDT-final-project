@@ -30,10 +30,10 @@ public class App
     public static void main( String[] args )
     {
  
-  	  String consumerKey = "";
-  	  String consumerSecret = "";
-  	  String accessToken = "";
-  	  String accessTokenSecret = "";
+  	  String consumerKey = "NfFp19WYY71KJmP5mRZaPochO";
+  	  String consumerSecret = "fYm0BNXsLPvHmF18WzkDpZlOevZwbU4JjrYd2Xhcs0AKm4Zlx9";
+  	  String accessToken = "1310352799553581056-bxHtElFEGgxjDe1XMhydzLMifniYPw";
+  	  String accessTokenSecret = "HUK3kNC6sCnvV5xFmSDcZI1bowcBb2gKfj2FkXiDg97Ng";
   	    String[] filters = new String[]{};
 
   	    System.setProperty("twitter4j.oauth.consumerKey", consumerKey);

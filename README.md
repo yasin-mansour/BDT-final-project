@@ -2,7 +2,14 @@ this application is to pull all the tags from twitter using a spark stream appli
 
 
 1. run the spark application (App.java)
-
+    you need to get consumerKey,consumerSecret,accessToken, and accessTokenSecret for a twitter project to run this code .
+    and you need to set this values inside the App class.
+     ```
+      String consumerKey = "";
+  	  String consumerSecret = "";
+  	  String accessToken = "";
+  	  String accessTokenSecret = "";
+      ```
 
 2. Create hive table command:
 

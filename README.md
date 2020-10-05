@@ -10,7 +10,8 @@ this application is to pull all the tags from twitter using a spark stream appli
 PARTITIONED BY(createdat String)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ","
 LOCATION
-"/tmp/finalProject";```
+"/tmp/finalProject";
+```
 
 
 3. reload saved data by spark to hdfs into hive before running any query to load the new added data
